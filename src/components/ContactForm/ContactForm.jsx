@@ -6,7 +6,8 @@ import { useId } from 'react';
 import * as Yup from 'yup';
 import { nanoid } from 'nanoid';
 import { useDispatch } from 'react-redux';
-import { addContact } from '../../redux/contactsSlice';
+import { addContact } from '../../redux/contactsOps';
+// import { addContact } from '../../redux/contactsSlice';
 
 const phoneRegexp = /^[0-9]{3}-[0-9]{2}-[0-9]{2}$/;
 
