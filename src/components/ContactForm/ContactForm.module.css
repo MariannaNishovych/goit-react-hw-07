@@ -1,0 +1,39 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #497be0;
+  border-radius: 8px;
+  gap: 5px;
+  padding: 20px;
+  margin-bottom: 40px;
+  margin-top: 15px;
+  width: 350px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1)
+}
+
+.text {
+  text-align: left;
+}
+
+.field {
+  margin-bottom: 5px;
+  border-radius: 8px;
+  width: 95%;
+  padding: 10px;
+}
+
+.error {
+  font-size: 10px;
+  color: red;
+  text-align: left;
+}
+
+.buttonSubmit {
+  border: none;
+  border-radius: 8px;
+  background-color: #196fe7;
+  color: white;
+  width: 150px;
+  height: 35px;
+  margin: 0 auto;
+}

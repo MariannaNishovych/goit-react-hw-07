@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.text {
+  text-align: left;
+  font-weight: bold;
+}
+
+.input {
+  display: block;
+  border-radius: 8px;
+  width: 300px;
+  padding: 10px;
+}

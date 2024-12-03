@@ -1,0 +1,38 @@
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid #196fe7;
+  border-radius: 8px;
+  position: relative;
+  padding: 15px;
+  width: 350px;
+}
+
+.item p {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-weight: 600;
+}
+
+.button {
+  position: absolute;
+  right: 5px;
+  top: 20px;
+  display: flex;
+  padding: 0;
+  width: 60px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bold;
+  border: 1px solid grey;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #196fe7;
+  border: 1px solid #b8baba;
+  color: white;
+}
